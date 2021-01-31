@@ -1,7 +1,7 @@
 body {
   margin: 40px auto;
   max-width: 650px;
-  line-height: 1,6;
+  line-height: 1.6;
   font-size: 18px;
   background-color: #eeeeee;
   color: #444;
@@ -9,5 +9,22 @@ body {
 }
 
 h1, h2, h4 {
-  line-height: 1,2;
+  line-height: 1.2;
+}
+
+header {
+  top: 0;
+  text-align: center;
+}
+
+.intro {
+  width: 45%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 50%;
+  height: auto;
 }
