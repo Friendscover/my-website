@@ -12,6 +12,13 @@ h1, h2, h4 {
   line-height: 1.2;
 }
 
+@media (prefers-color-scheme: dark) {
+  body { background:  #222; color: #eeeeee; }
+  a { color: #eee }
+  a:visited { color: #666 }
+}
+
+
 nav ul {
   list-style: none;
   text-align: center;
