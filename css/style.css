@@ -1,21 +1,16 @@
 body {
   margin: 40px auto;
   max-width: 650px;
-  line-height: 1.6;
-  font-size: 18px;
   background-color: #eeeeee;
   color: #444;
   padding: 0 10px;
-}
-
-h1, h2, h4 {
-  line-height: 1.2;
+  font: 1.2em/1.62 sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  body { background:  #222; color: #eeeeee; }
-  a { color: #eee }
-  a:visited { color: #666 }
+  body { background: #000; color: #fff; }
+  a { color: #eee; }
+  a:visited { color: #eee; }
 }
 
 
