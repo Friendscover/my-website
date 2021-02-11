@@ -12,9 +12,16 @@ h1, h2, h4 {
   line-height: 1.2;
 }
 
-header {
-  top: 0;
+nav ul {
+  list-style: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 1em;
 }
 
 .intro {
@@ -26,5 +33,5 @@ header {
 
 img {
   border-radius: 50%;
-  height: auto;
+  width: 30%;
 }
