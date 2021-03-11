@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\n",
+		"body {\n  margin: auto;\n  max-width: 650px;\n  background-color: #eeeeee;\n  color: #444;\n  padding: 0 10px;\n  font: 1.2em/1.62 sans-serif;\n}\n\n@media (prefers-color-scheme: dark) {\n  body { background: #000; color: #fff; }\n  a { color: #eee; }\n}\n\n.current {\n  color: #427bbe;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,IAAI,EACZ,SAAS,EAAE,KAAK,EAChB,gBAAgB,EAAE,OAAO,EACzB,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,MAAM,EACf,IAAI,EAAE,qBAAqB,GAC5B;;AAED,MAAM,6BACJ,GAAA,AAAA,IAAI,CAAC,EAAE,UAAU,EAAE,IAAI,EAAE,KAAK,EAAE,IAAI,GAAI,CACxC,AAAA,CAAC,CAAC,EAAE,KAAK,EAAE,IAAI,GAAI,EADoB;;AAIzC,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OAAO,GACf"
+}

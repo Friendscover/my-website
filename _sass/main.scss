@@ -1,0 +1,17 @@
+body {
+  margin: auto;
+  max-width: 650px;
+  background-color: #eeeeee;
+  color: #444;
+  padding: 0 10px;
+  font: 1.2em/1.62 sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body { background: #000; color: #fff; }
+  a { color: #eee; }
+}
+
+.current {
+  color: #427bbe;
+}
