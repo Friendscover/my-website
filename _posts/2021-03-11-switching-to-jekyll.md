@@ -1,6 +1,6 @@
 ---
 layout: post
-author: toby
+author: Tobi
 ---
 
 ### tl;dr;

@@ -10,4 +10,5 @@ Hi, mein Name ist Tobias Klöpper. Ich studiere Agrarwirtschaft und interesse mi
 ## Dinge, die ich plane hier hinzuzufügen:
 
 Es gibt einige Dinge, die ich gerne auf dieser Seite hinzufügen würde. Ich plane einen Futterrationsberechner, eine Stoffstrombilanz als Webvariante und einen kleinen Blog über Landwirtschaft einzurichten.
-Achja diese Website wurde nur schnell zusammen geworfen. Also könnten ein paar Bugs vorkommen.
+
+Diese Seite ist mittels Jekyll gebaut worden und kann noch den ein oder anderen Fehler enthalten. 
