@@ -2,7 +2,7 @@
 layout: default
 title: About me
 ---
-<style type="text/css">
+<style>
   img {
     margin-left: 150px;
     border-radius: 50%;
