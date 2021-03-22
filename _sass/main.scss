@@ -7,8 +7,12 @@ body {
   font: 1.2em/1.62 sans-serif;
 }
 
+a {
+  color: #444;
+}
+
 .current {
-  color: #00ccff;
+  color: #a10000 !important;
 }
 
 nav a {
@@ -18,5 +22,5 @@ nav a {
 @media (prefers-color-scheme: dark) {
   body { background: #000; color: #fff; }
   a { color: #eee; }
+  .current { color: #fdec00 !important; }
 }
-
