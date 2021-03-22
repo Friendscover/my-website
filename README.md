@@ -1,7 +1,9 @@
 # my Website
 
-This is the repo for my Website.
-It is just a basic Website written in shitty HTML and CSS but it gets the jobs done.
-Hosted via Github Pages.
+This is the repo for my website.
+
+The website is build with Jekyll and deployed via Github pages.
+
+On my website I am trying to write about the technology in the world of agriculture.
 
 Check it out on the [web!](https://www.tobiaskloepper.de)
