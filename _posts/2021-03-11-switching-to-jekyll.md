@@ -3,7 +3,6 @@ layout: post
 author: Tobi
 ---
 
-### tl;dr;
 - Switched my Website to Jekyll
 - Easy deploy for blog-posts via markdown
 - Uses ruby code
