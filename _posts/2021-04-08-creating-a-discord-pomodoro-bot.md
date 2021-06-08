@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Tobi
+author: Tobias Klöpper
 ---
 
 - discord ruby gem

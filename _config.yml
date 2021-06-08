@@ -1,0 +1,10 @@
+plugins:
+  - jekyll-seo-tag
+
+social:
+  name: Tobias Klöpper
+  links:
+    - https://twitter.com/friendscover
+    - https://github.com/Friendscover
+    - https://www.linkedin.com/in/tobias-kl%C3%B6pper-b054701ba/
+    - https://www.polywork.com/friendscover

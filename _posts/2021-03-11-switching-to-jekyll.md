@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Tobi
+author: Tobias Klöpper
 ---
 
 - Switched my Website to Jekyll
