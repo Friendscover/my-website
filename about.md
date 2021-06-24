@@ -15,7 +15,13 @@ title: About me
 
 Hi, my name is Tobias Klöpper and I am currently studying Agriculture in Germany. During my free time I spend some time learning Ruby on Rails with the help of TheOdinProject. You can follow my progress at [Github](https://github.com/Friendscover).
 
-When I am not studying, I help on my parents' farm, try to improve my bouldering skills and play some games with friends.
+When I am not studying, I'm helping on my parents' farm, try to improve my bouldering skills and play some games with friends.
+
+## Contact info
+- [Github](https://github.com/Friendscover)
+- [LinkedIn](https://www.linkedin.com/in/tobias-kl%C3%B6pper-b054701ba/) 
+- [Polywork](https://www.polywork.com/friendscover) 
+- or write an email to tobias.kloepper@web.de!
 
 ## Stuff I am looking into
 
