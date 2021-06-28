@@ -21,7 +21,7 @@ When I am not studying, I'm helping on my parents' farm, try to improve my bould
 - [Github](https://github.com/Friendscover)
 - [LinkedIn](https://www.linkedin.com/in/tobias-kl%C3%B6pper-b054701ba/) 
 - [Polywork](https://www.polywork.com/friendscover) 
-- or write an email to tobias.kloepper@web.de!
+- or write an email to <tobias.kloepper@web.de>!
 
 ## Stuff I am looking into
 
