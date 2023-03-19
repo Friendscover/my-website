@@ -2,13 +2,6 @@
 layout: post
 author: Tobias Klöpper
 ---
-
-- discord ruby gem
-- easy methods mapped to api calls
-- fun sideproject before starting my BA thesis
-
-## Pomodoro
-
 A Pomodoro Timer was one of the first projects I did as part of the [TheOdinProjects]() Curriculum in 2019. The timer just uses `Javascript` and some basic `HTML/CSS` to display the time in a fashionable way. Since building the timer myself, I have been using the Pomodoro study method to focus on my studies and to be more productive.
 
 It should still be visitable via [Github pages](https://friendscover.github.io/pomodoro/)

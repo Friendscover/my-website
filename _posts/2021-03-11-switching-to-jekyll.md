@@ -2,13 +2,6 @@
 layout: post
 author: Tobias Klöpper
 ---
-
-- Switched my Website to Jekyll
-- Easy deploy for blog-posts via markdown
-- Uses ruby code
-
-## Switch to Jekyll
-
 For the past few weeks, i was looking for a way to easily write blog posts for my website. Writing the posts in plain HTML was not my kind of thing, so i looked at ways to convert Markdown files to HTML. And after some searching, the Jekyll Gem seemed kinda promising. It has md to HTML conversion and the deploy should be easy, because this website was already deployed on Github and apparently Github Pages uses Jekyll on the backend. 
 
 ## Convert the page

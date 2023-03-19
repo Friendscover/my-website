@@ -2,13 +2,6 @@
 layout: post
 author: Tobias Klöpper
 ---
-
-- wageningen research article
-- on farm hatching has a positive effect on chicks
-- reduces stress during transport
-
-## Chicken Welfare
-
 During the writing of my bachelor thesis, I came across several fascinating articles about the current research of chicken welfare. But this research paper about the hatching methods of chicks was too damn interesting to not write a blog post about. You can read the whole paper at the [Wageningen University Website](https://research.wur.nl/en/publications/day-old-chicken-quality-and-performance-of-broiler-chickens-from-).
 
 ## Conventional hatching
