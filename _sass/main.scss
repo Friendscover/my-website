@@ -12,11 +12,19 @@ a {
 }
 
 .current {
-  color: #a10000 !important;
+  color: #146152 !important;
+}
+
+nav {
+  position: sticky;
+  text-align: center;
+  top: 0px;
+  background: linear-gradient(305deg, #B4CF66, #eee);
+  border-radius: 10px;
 }
 
 nav a {
-  margin-right: 20px;
+  margin: 15px;
 }
 
 .post { 
@@ -28,11 +36,11 @@ nav a {
 }
 
 
-@media (prefers-color-scheme: dark) {
-  body { background: #000; color: #fff; }
-  body .post { background: linear-gradient(305deg, #146152, #44803F, #000); border-radius: 10px; }
-  a { color: #eee; }
-  .current { color: #fdec00 !important; }
-}
+// @media (prefers-color-scheme: dark) {
+//   body { background: #000; color: #fff; }
+//   body .post { background: linear-gradient(305deg, #146152, #44803F, #000); border-radius: 10px; }
+//   a { color: #eee; }
+//   .current { color: #fdec00 !important; }
+// }
 
 // colors: #146152 #44803F #B4CF66 #FFEC5C #FF5A33 > adobe tropical fruit punch
