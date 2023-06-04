@@ -6,9 +6,9 @@ description: Here you can find all posts I have written.
 <div>
   <h2>All Posts</h2>
     {% for post in site.posts %}
-      <div class="post"> 
+      <article class="post"> 
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <i>{{ post.date | date: "%Y-%m-%d" }}</i>
-      </div>
+      </article>
     {% endfor %}
 </div>

@@ -1,10 +1,8 @@
 body {
-  // margin: auto;
-  // max-width: 650px;
   background-color: #eeeeee;
   color: #444;
   // padding: 0 10px;
-  // font: 1.2em/1.62 sans-serif;
+  font: 1.2em/1.62 sans-serif;
 }
 
 a {
@@ -38,11 +36,23 @@ nav a {
   text-align: center;
 }
 
+div {
+  // add flex to center the post elements
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .post { 
-  // padding: 10px; 
-  // padding-left: 10px; 
-  // margin-bottom: 20px; 
-  // border-radius: 10px;
+  //set width of the elements -> TDO: add @media queries
+  width: 650px;
+
+  //post styling
+  padding: 10px; 
+  padding-left: 10px; 
+  margin-bottom: 20px; 
+  border-radius: 10px;
   background: linear-gradient(140deg, #B4CF66, #eee);
 }
 
