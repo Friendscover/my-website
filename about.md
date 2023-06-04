@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: about
 title: About me
+author: Tobias Klöpper
 ---
 <style>
   img {
-    margin-left: 150px;
     border-radius: 50%;
     width: 40%;
+    margin-left: 12em;
   }
 </style>
-## About me
 
 <img src="https://avatars.githubusercontent.com/u/37114020?s=460&u=4d138f07b6d7214db31244226181ba42bc2388e7&v=4" alt="Tobias Klöppers Foto">
 
@@ -36,4 +36,3 @@ Currently I am checking out Mastodon. If you are using it yourself, feel free to
 - More blog posts
 - Maybe there will be room for a feeding calculator 
 - ~~a blog about agriculture and tech~~
-
