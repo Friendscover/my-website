@@ -1,10 +1,10 @@
 body {
-  margin: auto;
-  max-width: 650px;
+  // margin: auto;
+  // max-width: 650px;
   background-color: #eeeeee;
   color: #444;
-  padding: 0 10px;
-  font: 1.2em/1.62 sans-serif;
+  // padding: 0 10px;
+  // font: 1.2em/1.62 sans-serif;
 }
 
 a {
@@ -16,23 +16,34 @@ a {
 }
 
 nav {
+  // this makes the nav bar sticky
   position: sticky;
-  text-align: center;
   top: 0px;
-  background: linear-gradient(305deg, #B4CF66, #eee);
-  border-radius: 10px;
+
+  //adding flex box to center the elements
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
-  margin: 10px;
+  //set a width for the elements in nav bar -> TODO: add @media queries
+  width: 100px;
+
+  // element styling of each nav bar link
+  background: linear-gradient(140deg, #B4CF66, #eee);
+  border-radius: 10px;
+
+  //align text
+  text-align: center;
 }
 
 .post { 
-  padding: 10px; 
-  padding-left: 10px; 
-  margin-bottom: 20px; 
-  border-radius: 10px;
-  background: linear-gradient(305deg, #B4CF66, #eee);
+  // padding: 10px; 
+  // padding-left: 10px; 
+  // margin-bottom: 20px; 
+  // border-radius: 10px;
+  background: linear-gradient(140deg, #B4CF66, #eee);
 }
 
 
