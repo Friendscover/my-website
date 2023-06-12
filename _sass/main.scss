@@ -1,8 +1,7 @@
 body {
   background-color: #eeeeee;
   color: #444;
-  // padding: 0 10px;
-  //font: 1.2em/1.62 sans-serif;
+  line-height: 1.7em;
 }
 
 a {
@@ -22,11 +21,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  // design consideration for a better viewing experience
+  background-color: #eeeeee;
 }
 
 nav a {
-  //set a width for the elements in nav bar -> TODO: add @media queries
+  //set a width for the elements in nav bar
   width: 100px;
+  margin: 10px;
 
   // element styling of each nav bar link
   background: linear-gradient(140deg, #B4CF66, #eee);
@@ -45,9 +48,6 @@ div {
 }
 
 .post { 
-  //set width of the elements -> TDO: add @media queries
-  width: 650px;
-
   //post styling
   padding: 10px; 
   padding-left: 10px; 
@@ -56,6 +56,20 @@ div {
   background: linear-gradient(140deg, #B4CF66, #eee);
 }
 
+//media queries for different screen sizes
+@media only screen and (min-width: 768px) {
+  //desktop changes 
+  body { font-size: 16px; }
+  .post {  width: 650px; }
+  nav { height: 3em; }
+}
+
+@media only screen and (max-width: 767px) {
+  // phone specific changes to the layout
+  body { font-size: 18px; }
+  nav { flex-wrap: wrap; }
+  nav a { margin: 5px; }
+}
 
 // @media (prefers-color-scheme: dark) {
 //   body { background: #000; color: #fff; }
