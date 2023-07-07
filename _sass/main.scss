@@ -24,6 +24,9 @@ nav {
 
   // design consideration for a better viewing experience
   background-color: #eeeeee;
+
+  // round border to improve viewing on mobile 
+  border-radius: 0px 0px 10px 10px;
 }
 
 nav a {
@@ -71,11 +74,14 @@ div {
   nav a { margin: 5px; }
 }
 
-// @media (prefers-color-scheme: dark) {
-//   body { background: #000; color: #fff; }
-//   body .post { background: linear-gradient(305deg, #146152, #44803F, #000); border-radius: 10px; }
-//   a { color: #eee; }
-//   .current { color: #fdec00 !important; }
-// }
+// dark mode style setting
+@media (prefers-color-scheme: dark) {
+  body { background: #000; color: #fff; }
+  body .post { background: linear-gradient(305deg, #FF5A33, #000); }
+  nav { background-color: #000; }
+  nav a { background: linear-gradient(305deg, #FF5A33, #000);}
+  a { color: #eee; }
+  .current { color: #FFEC5C !important; }
+}
 
 // colors: #146152 #44803F #B4CF66 #FFEC5C #FF5A33 > adobe tropical fruit punch
