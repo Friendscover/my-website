@@ -68,10 +68,12 @@ div {
 }
 
 @media only screen and (max-width: 767px) {
-  // phone specific changes to the layout
+  // phone specific changes to the layout; img size 
   body { font-size: 18px; }
   nav { flex-wrap: wrap; }
   nav a { margin: 5px; }
+  img { max-width: 300px; }
+  figure { max-width: 300px; }
 }
 
 // dark mode style setting
