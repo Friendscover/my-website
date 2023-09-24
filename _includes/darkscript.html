@@ -1,17 +1,26 @@
 <script>
+    //initialize button to toggle styles
     const toggleButton = document.getElementById("dark-mode-button");
-    let dark = true
 
+    //load theme prefs if they exist and apply that style
+    const currentTheme = localStorage.getItem("theme") ? localStorage.getItem("theme") : null;
+    if (currentTheme) 
+    {
+        document.documentElement.setAttribute("data-theme", currentTheme);
+        currentTheme == "dark" ? toggleButton.innerText = "☀️" : toggleButton.innerText = "🌙";
+    }
+
+    // function to switch between themes with saving prefs in local storage
     function switchTheme(e) {
-        if (dark) 
+        if (currentTheme == "light") 
         {
             document.documentElement.setAttribute("data-theme", "dark");
-            dark = false;
+            localStorage.setItem("theme", "dark");
         }
         else 
         {
             document.documentElement.setAttribute("data-theme", "light");
-            dark = true;
+            localStorage.setItem("theme", "light");
         }    
     }
 
