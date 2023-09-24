@@ -1,15 +1,23 @@
+// root custom values to change the design
+:root {
+  --background-color: #eeeeee;
+  --text-color: #444;
+  --link-color: #146152;
+  --card-background-color: linear-gradient(140deg, #B4CF66, #eee);
+}
+
 body {
-  background-color: #eeeeee;
-  color: #444;
+  background-color: (var(--background-color));
+  color: (var(--text-color));
   line-height: 1.7em;
 }
 
 a {
-  color: #444;
+  color: (var(--text-color));
 }
 
 .current {
-  color: #146152 !important;
+  color: (var(--link-color));
 }
 
 nav {
@@ -23,7 +31,7 @@ nav {
   align-items: center;
 
   // design consideration for a better viewing experience
-  background-color: #eeeeee;
+  background-color: (var(--background-color));
 
   // round border to improve viewing on mobile 
   border-radius: 0px 0px 10px 10px;
@@ -35,7 +43,7 @@ nav a {
   margin: 10px;
 
   // element styling of each nav bar link
-  background: linear-gradient(140deg, #B4CF66, #eee);
+  background: var(--card-background-color);
   border-radius: 10px;
 
   //align text
@@ -56,7 +64,7 @@ div {
   padding-left: 10px; 
   margin-bottom: 20px; 
   border-radius: 10px;
-  background: linear-gradient(140deg, #B4CF66, #eee);
+  background: var(--card-background-color);
 }
 
 //media queries for different screen sizes
@@ -76,14 +84,14 @@ div {
   figure { max-width: 300px; }
 }
 
-// dark mode style setting
-@media (prefers-color-scheme: dark) {
-  body { background: #000; color: #fff; }
-  body .post { background: linear-gradient(305deg, #FF5A33, #000); }
-  nav { background-color: #000; }
-  nav a { background: linear-gradient(305deg, #FF5A33, #000);}
-  a { color: #eee; }
-  .current { color: #FFEC5C !important; }
-}
+// // dark mode style setting
+// @media (prefers-color-scheme: dark) {
+//   body { background: #000; color: #fff; }
+//   body .post { background: linear-gradient(305deg, #FF5A33, #000); }
+//   nav { background-color: #000; }
+//   nav a { background: linear-gradient(305deg, #FF5A33, #000);}
+//   a { color: #eee; }
+//   .current { color: #FFEC5C !important; }
+// }
 
 // colors: #146152 #44803F #B4CF66 #FFEC5C #FF5A33 > adobe tropical fruit punch
