@@ -1,0 +1,22 @@
+<script>
+    const toggleButton = document.getElementById("dark-mode-button");
+    let dark = true
+
+    function switchTheme(e) {
+        if (dark) 
+        {
+            document.documentElement.setAttribute("data-theme", "dark");
+            dark = false;
+        }
+        else 
+        {
+            document.documentElement.setAttribute("data-theme", "light");
+            dark = true;
+        }    
+    }
+
+    toggleButton.addEventListener("click", () => {
+        switchTheme();
+    });
+</script>
+
