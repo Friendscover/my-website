@@ -12,15 +12,15 @@
 
     // function to switch between themes with saving prefs in local storage
     function switchTheme(e) {
-        if (currentTheme == "light") 
-        {
-            document.documentElement.setAttribute("data-theme", "dark");
-            localStorage.setItem("theme", "dark");
-        }
-        else 
+        if (currentTheme == "dark") 
         {
             document.documentElement.setAttribute("data-theme", "light");
             localStorage.setItem("theme", "light");
+        }
+        else 
+        {
+            document.documentElement.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
         }    
     }
 
