@@ -11,7 +11,7 @@
   --background-color: #000;
   --text-color: #fff;
   --link-color: #FFEC5C;
-  --card-background-color: linear-gradient(305deg, #FF5A33, #000);
+  --card-background-color: linear-gradient(305deg, #000, #3C5C14);
 }
 
 body {
@@ -82,7 +82,7 @@ div {
 //media queries for different screen sizes
 @media only screen and (min-width: 768px) {
   //desktop changes 
-  body { font-size: 16px; }
+  body { font-size: 1.1em; }
   .post {  width: 650px; }
   nav { height: 3em; }
 }
