@@ -2,6 +2,8 @@
 layout: about
 title: About me
 author: Tobias Klöpper
+description: Contact Information for Tobias Klöpper.
+tags: contact
 ---
 <style>
   img {
@@ -13,7 +15,8 @@ author: Tobias Klöpper
 
 <img src="https://avatars.githubusercontent.com/u/37114020?s=460&u=4d138f07b6d7214db31244226181ba42bc2388e7&v=4" alt="Tobias Klöppers Foto">
 
-Hi, my name is Tobias Klöpper and I am currently working as a Projectmanager at [agriportance](https://agriportance.com/). 
+Hi, my name is Tobias Klöpper and I am currently working as a Projectmanager at [agriportance](https://agriportance.com/). At agriportance I am responsible for consulting customers during and after the sustainability certification process in the ISSC and REDcert system. 
+
 Previously I studied agriculture in Germany and finished my Bachelors Degree in the summer of 2021! During my free time I am learning Ruby on Rails with the help of TheOdinProject. You can follow my progress at [Github](https://github.com/Friendscover).
 
 But not all of my free time is used to code. I am also engaged in indoor rock climbing and sometimes my friends and I play some games together. 
@@ -25,9 +28,12 @@ But not all of my free time is used to code. I am also engaged in indoor rock cl
 
 Currently I am checking out Mastodon. If you are using it yourself, feel free to follow me/reach out at [Mastodon](https://mastodon.social/@friendscover).
 
+Feel free to contact me regarding biogas or biomethane projects.
+
 ## Stuff I am looking into
 
 - Digital Mass Balance for Biogasplants
+- Union Database for Biofuels (UDB)
 - No-Till Planting/Planting Green
 - Animal Husbandry/Nutrition (Chickens)  
 
