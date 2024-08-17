@@ -28,6 +28,8 @@ But not all of my free time is used to code. I am also engaged in indoor rock cl
 
 Currently I am checking out Mastodon. If you are using it yourself, feel free to follow me/reach out.
 
+Also there is a RSS feed for my blog. Check it out [here](https://tobiaskloepper.de/feed.xml) to get the latest updates.
+
 Feel free to contact me regarding biogas or biomethane projects.
 
 ## What am I currently working on?
