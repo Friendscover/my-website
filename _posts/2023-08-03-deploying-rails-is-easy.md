@@ -3,7 +3,7 @@ layout: post
 author: Tobias Klöpper
 ---
 
-In my last blog post I was complaining about the lack of support for german banking cards as the default payment for some cloud hosting providers like [render.com](https://render.com) or [heroku](https://www.heroku.com/). After some time off I came back to the same problem. I did some searching around and found out about [Digital Ocean](digitalocean.com/). And to my surprise they are providing Paypal as a payment option. There was only one problem. Digital Ocean provides configurable servers instead of the one click deployment solutions by other providers. That should not be hard so set up, right?
+In my last blog post I was complaining about the lack of support for german banking cards as the default payment for some cloud hosting providers like [render.com](https://render.com) or [heroku](https://www.heroku.com/). After some time off I came back to the same problem. I did some searching around and found out about [Digital Ocean](https://digitalocean.com/). And to my surprise they are providing Paypal as a payment option. There was only one problem. Digital Ocean provides configurable servers instead of the one click deployment solutions by other providers. That should not be hard so set up, right?
 
 ### Starting with the lowest tier
 
