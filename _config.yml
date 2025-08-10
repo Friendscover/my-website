@@ -5,11 +5,11 @@ plugins:
 social:
   name: Tobias Klöpper
   links:
-    - https://twitter.com/friendscover
     - https://github.com/Friendscover
     - https://www.linkedin.com/in/tobias-kl%C3%B6pper-b054701ba/
-    - https://www.polywork.com/friendscover
+    - https://codeberg.org/friendscover
+    - https://mastodon.social/@friendscover
 
 title: Tobias Klöppers Blog
-tagline: A blog about coding and agriculture. So
+tagline: A blog about coding and agriculture.
 locale: en_DE

@@ -23,7 +23,7 @@ But not all of my free time is used to code. I am also engaged in indoor rock cl
 
 ## Contact information
 - [Github](https://github.com/Friendscover)
-- [LinkedIn](https://www.linkedin.com/in/tobias-kl%C3%B6pper-b054701ba/) 
+- [LinkedIn](https://www.linkedin.com/in/tobias-kl%C3%B6pper) 
 - [Mastodon](https://mastodon.social/@friendscover)
 
 Currently I am checking out Mastodon. If you are using it yourself, feel free to follow me/reach out.
