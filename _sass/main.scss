@@ -77,10 +77,18 @@ footer {
   text-align: center;
 }
 
+h4 {
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+  padding-right: 15px;
+  margin: 0px;
+}
+
 .post { 
   // post styling
   padding: 10px; 
-  padding-left: 10px; 
+  padding-left: 20px; 
   margin-bottom: 20px; 
   border-radius: 10px;
   background: var(--card-background-color);
