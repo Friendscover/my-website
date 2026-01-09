@@ -16,7 +16,7 @@ tags: contact
 
 Hello there 👋, thanks for checking out my small blog. My name is Tobias Klöpper and I am currently working at **eco-gruppe**.
 
-Previously I studied agriculture in Germany and finished my studies in the summer of 2021! During my free time I am learning Ruby on Rails with the help of ThedinProject. You can follow my progress at [Github](https://github.com/Friendscover).
+Previously I studied agriculture in Germany and finished my studies in the summer of 2021! During my free time I am learning Ruby on Rails with the help of TheOdinProject. You can follow my progress at [Github](https://github.com/Friendscover).
 
 But not all of my free time is used to code. I am also engaged in indoor rock climbing and sometimes my friends and I play some games together. 
 
@@ -31,9 +31,9 @@ Currently I am checking out Mastodon. If you are using it yourself, feel free to
 Also there is a RSS feed for my blog. Check it out [here](https://tobiaskloepper.de/feed.xml) to get the latest updates.
 
 ## What am I currently working on?
-- Adding Tailwind CSS to the plant tracking project. The aim of the project is to get familiar with the framework and apply the learnings to the next project.
+- Adding Tailwind CSS to the plant tracking project. The aim of the project is to get familiar with the framework and apply the learnings to the next project. (2025-today)
+- Upgrading the CSS Styling of my personal blog. (2026-today)
 
 ## Previous Projects:
-- Migrating the watering tracker to codeberg and adding Tailwind CSS. (2025)
 - Building a watering tracker for my plants at home. The source code is available [Github](https://github.com/Friendscover/plant-tracker). (2024)
-- Building a homeserver. (2023-Today)
+- Building a homeserver. (2023-today)
