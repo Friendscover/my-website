@@ -4,6 +4,8 @@
   --text-color: #444;
   --link-color: #146152;
   --card-background-color: linear-gradient(140deg, #B4CF66, #eee);
+  --code-background-color: #272822;
+  --code-text-color: #f8f8f2;
   //default font system stack
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -14,6 +16,8 @@
   --text-color: #fff;
   --link-color: #FFEC5C;
   --card-background-color: linear-gradient(305deg, #000, #3C5C14);
+  --code-background-color: #000;
+  --code-text-color: #fff;
 }
 
 body {
@@ -92,6 +96,19 @@ h4 {
   margin-bottom: 20px; 
   border-radius: 10px;
   background: var(--card-background-color);
+}
+
+// code highlighting
+.highlight {
+  background-color: var(--code-background-color);
+  color: var(--code-text-color);
+  border-radius: 10px;
+  padding: 10px;
+  text-wrap: auto;
+}
+
+code {
+  text-wrap: balance;
 }
 
 // media queries for different screen sizes
